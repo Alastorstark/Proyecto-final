@@ -45,6 +45,11 @@ li{
     padding: 20%;
 
 }
+#butw:hover{
+    opacity:0.5 ;
+    background-color:rgb(212, 212, 212);
+
+}
 
 #butb{
     border-radius:50px;
@@ -52,6 +57,9 @@ li{
     background-color: black;
     color: white;
 
+}
+.pestaña:hover{
+    color:  rgb(22, 58, 22);
 }
 
 #nav{
@@ -110,7 +118,7 @@ h2{
 }
 .contenedor{
     width: 50%;
-    height: 20vh;
+    height: 100%;
     text-align: center;
     padding-bottom: 10%;
     padding-top: 60px;
@@ -122,8 +130,10 @@ h2{
     border: 1px solid white;
     margin-top: 2%;
     margin-left: 45%;
-    
-
+}
+.boton:hover{
+    opacity:0.5 ;
+    background-color:rgb(99, 3, 3);
 }
 
 /* PARTE DEL FOOTER */

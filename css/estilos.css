@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    padding: 20px;
+}
+/* COMIENZA EL HEADER */
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border: top 1px black;
+    
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 2em;
+    justify-content: space-between;
+    
+}
+li{
+    margin: 5px 5px;
+}
+
+#botones{
+    justify-content: end;
+    width: 10%;
+    align-items: center;
+    margin-left: 50%;
+    
+}
+
+#butw{
+    border-radius:20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width:1000%;
+    padding: 20%;
+
+}
+
+#butb{
+    border-radius:50px;
+    border: 1px black;
+    background-color: black;
+    color: white;
+
+}
+
+#nav{
+    width: 90%;
+    display: flex;
+    
+}
+a{
+    color: white;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+}
+#alebrije2{
+    justify-content: flex-end;
+}
+/* PARTE DEL MAIN */
+
+h2{
+    font-size: 5em;
+    margin: 2%;
+
+    
+}
+#sec1{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(22, 58, 22);
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 60px;
+}
+
+#sec2{
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(216, 13, 13);
+    color:white;
+    margin-top: 1em;
+}   
+#sec3{
+    height: 50vh;
+    display: flex;
+    width: 100%;
+    background-color:rgb(216, 13, 13);
+    color:white;
+    margin-top: 1em;
+}
+.alebrije{
+    width: 50%;
+    height: 100%;
+}
+.contenedor{
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 60px;
+    
+}
+.boton{
+    width: 15%;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-left: 45%;
+    
+
+}
+
+/* PARTE DEL FOOTER */
+footer{
+    height: 20vh;
+    width: 100%;
+    margin-top: 2em;
+    border-top: 1px;
+    align-items: flex-end;
+    padding-top: 5%;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+    align-items: flex-end;
+}
+#copi{
+    align-items: flex-end;
+}

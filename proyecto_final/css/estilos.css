@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border-top: 5px shadow black ;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin: 5px 5px;
+}
+
+#botones{
+    justify-content: end;
+    width: 30%;
+    align-items: center;
+    
+}
+
+#butw{
+    border-radius:50px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+
+}
+
+#butb{
+    border-radius:50px;
+    border: 1px black;
+    background-color: black;
+    color: white;
+
+}
+
+#nav{
+    width: 70%;
+    display: flex;
+    
+}
+a{
+    color: white;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+}
+#alebrije2{
+    justify-content: end;
+}
+/* PARTE DEL MAIN */
+
+#sec1{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(3, 73, 3);
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#sec2{
+
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(216, 13, 13);
+    color:white;
+    margin-top: 1em;
+}   
+#sec3{
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    background-color:rgb(216, 13, 13);
+    color:white;
+    margin-top: 1em;
+}
+.alebrije{
+    width: 50%;
+    height: auto;
+}
+.contenedor{
+    width: 50%;
+    width: 20vh;
+    text-align: center;
+    justify-content: center;
+}
+
+/* parte del footer */
+footer{
+    height: 20vh;
+    width: 100%;
+    margin-top: 2em;
+    border-top: 1px;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+}
